@@ -11,7 +11,7 @@ if __name__ == "__main__":
     
     # Run Streamlit with the correct port
     streamlit_main([
-        "app.py",
+        "index.py",
         "--server.port",
         str(port),
         "--server.address",

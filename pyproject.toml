@@ -12,19 +12,16 @@ dependencies = [
     "openai"
 ]
 
-[project.scripts]
-server = "server:main"
-
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [tool.setuptools]
-py-modules = ["app"]
+py-modules = ["index"]
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["app.py", "chat.py", "styles.css", "utils/*"]
+include = ["index.py", "chat.py", "styles.css", "utils/*"]
 
 [project.urls]
 Homepage = "https://github.com/Mayankpatel-10/Edu-bot"
