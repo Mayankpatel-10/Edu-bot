@@ -1,0 +1,233 @@
+/* Custom CSS for EduBot - Clean White Theme */
+.stApp {
+    background: #ffffff;
+}
+
+.chat-message {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-message {
+    background-color: #f8f9fa;
+    border-left: 4px solid #90CAF9;
+    color: #212529;
+}
+
+.assistant-message {
+    background-color: #e9ecef;
+    border-left: 4px solid #6c757d;
+    color: #212529;
+}
+
+.stTextInput > div > div > input {
+    background-color: #ffffff;
+    color: #212529;
+    border-radius: 20px;
+    padding: 12px 20px;
+    border: 2px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #90CAF9;
+    box-shadow: 0 0 0 3px rgba(144, 202, 249, 0.1);
+}
+
+.stButton > button {
+    background: linear-gradient(45deg, #90CAF9, #64B5F6);
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(144, 202, 249, 0.3);
+    background: linear-gradient(45deg, #64B5F6, #42A5F5);
+}
+
+.stButton > button[type="secondary"] {
+    background: linear-gradient(45deg, #6c757d, #545b62);
+    color: #ffffff;
+}
+
+.stButton > button[type="primary"] {
+    background: linear-gradient(45deg, #90CAF9, #64B5F6);
+    color: #ffffff;
+}
+
+.sidebar .sidebar-content {
+    background: #ffffff;
+    color: #212529;
+    border-right: 1px solid #dee2e6;
+}
+
+.metric-card {
+    background: #ffffff;
+    color: #212529;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    border-left: 4px solid #90CAF9;
+    border: 1px solid #dee2e6;
+}
+
+/* Chat container styling */
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading animation */
+.loading-spinner {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #f8f9fa;
+    border-top: 3px solid #90CAF9;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Header styling */
+.main-header {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(45deg, #ffffff, #f8f9fa);
+    color: #212529;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #dee2e6;
+}
+
+/* Feature cards */
+.feature-card {
+    background: #ffffff;
+    color: #212529;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    border-left: 4px solid #90CAF9;
+    border: 1px solid #dee2e6;
+}
+
+/* Quick action buttons */
+.quick-action-btn {
+    background: linear-gradient(45deg, #90CAF9, #64B5F6);
+    color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    margin: 5px;
+}
+
+.quick-action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(144, 202, 249, 0.3);
+}
+
+/* Subject specific colors */
+.math-btn {
+    background: linear-gradient(45deg, #90CAF9, #64B5F6);
+    color: #ffffff;
+}
+
+.science-btn {
+    background: linear-gradient(45deg, #90CAF9, #64B5F6);
+    color: #ffffff;
+}
+
+.literature-btn {
+    background: linear-gradient(45deg, #ffc107, #e0a800);
+    color: #212529;
+}
+
+.study-btn {
+    background: linear-gradient(45deg, #6f42c1, #59359a);
+    color: #ffffff;
+}
+
+/* Success message styling */
+.success-message {
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    color: #155724;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Error message styling */
+.error-message {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Streamlit specific overrides */
+.stSelectbox > div > div > select {
+    background-color: #ffffff;
+    color: #212529;
+    border-radius: 10px;
+    border: 2px solid #dee2e6;
+}
+
+.stSlider > div > div > div {
+    background-color: #90CAF9;
+}
+
+.stMetric {
+    background-color: #ffffff;
+    color: #212529;
+    border-left: 4px solid #90CAF9;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+}
+
+/* Text color overrides */
+h1, h2, h3, h4, h5, h6 {
+    color: #212529 !important;
+}
+
+p, span, div {
+    color: #212529 !important;
+}
+
+/* Sidebar text */
+.css-1d391kg {
+    color: #212529 !important;
+}
+
+/* Input labels */
+.stSelectbox > div > div > div > label {
+    color: #212529 !important;
+}
+
+.stSlider > div > div > div > label {
+    color: #212529 !important;
+}
