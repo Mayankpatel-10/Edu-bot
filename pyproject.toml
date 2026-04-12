@@ -13,7 +13,7 @@ dependencies = [
 ]
 
 [project.scripts]
-app = "streamlit run app.py"
+server = "server:main"
 
 [build-system]
 requires = ["setuptools>=61.0"]
