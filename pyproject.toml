@@ -5,15 +5,12 @@ description = "Student Assistance Chat with AI"
 authors = [{name = "Mayank Patel"}]
 license = {text = "MIT"}
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.9"
 dependencies = [
     "streamlit",
     "python-dotenv",
     "openai"
 ]
-
-[project.scripts]
-app = "app:app"
 
 [build-system]
 requires = ["setuptools>=61.0"]
